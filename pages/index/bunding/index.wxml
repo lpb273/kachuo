@@ -1,0 +1,27 @@
+<!--pages/index/bunding/index.wxml-->
+<view class='content-wrap'>
+
+  <view class='tip-wrap'>
+    <text>
+      绑定手机号，提升您的账号安全。手机号可以用来登录；在账号丢失或异常时，可以通过手机找回。
+    </text>
+  </view>
+
+  <view class='code-wrap'>
+    <input placeholder="请输入手机号" type='number' placeholder-style="font-size:30rpx" class='code-style' bindinput='bindKeyInput'></input>
+  </view>
+
+  <view class='inp-wrap'>
+    <input placeholder="请输入验证码" class='inp' placeholder-style="font-size:30rpx" bindinput='bindCodeInput'></input>
+    <!-- <button class='btn' disabled='{{btnDisabled}}' bindtap='getVerificationCode'>{{placeHoldVal}}</button> -->
+    <button class="weui-btn" disabled='{{btnDisabled}}' type="primary" style='width: 220rpx;height: 80rpx;font-size:30rpx;line-height:80rpx;background:#fd5454;margin-left:50rpx' bindtap='getVerificationCode'>{{placeHoldVal}}</button>
+  </view>
+
+  <view class='sub-wrap'>
+    <!-- <button class='submit-btn' bindtap='jumpToGoodList'>提交</button> -->
+      <button class="weui-btn" type="primary" style='width: 630rpx;height: 80rpx;line-height:80rpx;font-size:30rpx;background:#fd5454' bindtap='jumpToGoodList' wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">提交</button> 
+     <!-- <button class="weui-btn" type="primary" style='width: 630rpx;height: 80rpx;line-height:80rpx;font-size:30rpx;background:#fd5454' bindtap='jumpToGoodList'>提交</button>  -->
+      <view wx:else>请升级微信版本</view>
+  </view>
+
+</view>

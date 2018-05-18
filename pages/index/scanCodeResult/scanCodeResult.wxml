@@ -1,0 +1,2 @@
+<!--pages/index/scanCodeResult/scanCodeResult.wxml-->
+<web-view src="{{goodsView}}"></web-view>

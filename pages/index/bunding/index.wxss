@@ -1,0 +1,67 @@
+/* pages/index/bunding/index.wxss */
+ @import '../../../style/weui.wxss';
+ 
+ .inp-wrap{
+   width: 100%;
+   padding: 0 20rpx;
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin-top: 60rpx;
+ }
+.inp{
+  width: 360rpx;
+  height: 80rpx;
+  border-bottom: 1px solid #000;
+  font-size: 35rpx;
+  margin-left: 50rpx;
+}
+
+
+.testBtn{
+  width: 200px;
+  height: 100px;
+  background:red;
+}
+.code-wrap{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 10rpx;
+  margin-top: 60rpx;
+}
+.code-style{
+  width: 630rpx;
+  height: 80rpx;
+  border-bottom: 1px solid #000;
+  font-size: 35rpx;
+}
+.sub-wrap{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 10rpx;
+  margin-top: 150rpx;
+}
+.submit-btn{
+  width: 630rpx;
+  height: 80rpx;
+  background: #fd5454;
+  line-height: 80rpx;
+  color: #fff;
+  font-size: 30rpx;
+}
+.tip-wrap{
+  width: 100%;
+  height: 200rpx;
+  font-size: 35rpx;
+  text-align: center;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}

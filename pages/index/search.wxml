@@ -1,0 +1,16 @@
+<view class="fui-searchbar bar" style='padding-bottom:25rpx'>
+  <view class="searchbar" style='display:flex;flex-direction:row;justify-content:center'>
+    <!-- <view style='position:relative;top:-4rpx'>
+      <image style='width:40rpx;height:40rpx;display:inline-block;' src='../../static/images/scan.svg' bindtap='scanCode'></image>
+    </view> -->
+    <navigator hover-class="none" class="weui-search-bar__form" url="/pages/goods/index/index?fromsearch=1">
+      <view class="search-input">
+        <view class="flex-icon-search" style="line-height:20px;">
+          <image src="{{icons.search}}" style="width:18px;height:18px;">
+          </image>
+        </view>
+        <view class="input search" style='line-height:25px'>输入关键字进行搜索</view>
+      </view>
+    </navigator>
+  </view>
+</view>

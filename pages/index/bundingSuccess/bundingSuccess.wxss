@@ -1,0 +1,2 @@
+/* pages/index/bundingSuccess/bundingSuccess.wxss */
+@import '../../../style/weui.wxss';

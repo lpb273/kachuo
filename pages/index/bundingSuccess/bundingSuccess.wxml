@@ -1,0 +1,27 @@
+<!--pages/index/bundingSuccess/bundingSuccess.wxml-->
+<view class="page">
+  <view class="weui-msg">
+    <view class="weui-msg__icon-area">
+      <icon type="success" size="93"></icon>
+      <!-- <image src='../../../static/images/label-red.png' style=''></image> -->
+    </view>
+    <view class="weui-msg__text-area">
+      <view class="weui-msg__title">绑定成功</view>
+      <view class="weui-msg__desc">恭喜您绑定成功！您可以使用微信号或手机号登陆卡戳商城小程序或卡戳APP！</view>
+    </view>
+    <view class="weui-msg__opr-area">
+      <view class="weui-btn-area">
+        <button class="weui-btn" type="primary" style='background:#fd5454' bindtap='jumpToGoodsList'>进入首页</button>
+        <button class="weui-btn" type="default" bindtap='downloadApp'>下载APP</button>
+      </view>
+    </view>
+    <view class="weui-msg__extra-area">
+      <view class="weui-footer">
+        <view class="weui-footer__links">
+          <navigator url="" class="weui-footer__link">卡戳（北京）科技开发有限公司</navigator>
+        </view>
+        <view class="weui-footer__text">Copyright©2015-2018 cciblock.com</view>
+      </view>
+    </view>
+  </view>
+</view>
